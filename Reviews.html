@@ -1,0 +1,151 @@
+<html>
+    <head>
+        <title>Reviews</title>
+        <!-- Google Fonts: Geist, Inter, and Plus Jakarta Sans -->
+        <link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+        <!-- Font Awesome Icons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+        <!-- External CSS Stylesheet -->
+        <link rel="stylesheet" type="text/css" href="website_style.css">
+    </head>
+    <body>
+        <!-- Persistent GlassSurface Top Navigation Bar -->
+        <div id="slate-glass-navbar" class="navbar">
+            <!-- Left Side: Metallic Paint Logo -->
+            <a href="Homepage.html" class="logo-link">
+                <div id="slate-metallic-logo" class="metallic-logo"></div>
+            </a>
+            <!-- Right Side: React Bits PillNav Component -->
+            <div id="slate-pill-nav" class="pill-nav-wrapper"></div>
+        </div>
+        <!-- Main Title -->
+        <h1 class="page-title">Industry & Community Verdicts</h1>
+        <h3 class="subtitle">
+            Independent lab benchmarks, hardware teardowns, and verified developer field reports.
+        </h3>
+        <!-- Aggregate Score Banner -->
+        <table class="score-banner-table">
+            <tr>
+                <td class="score-cell">
+                    <span class="score-number"><b>4.9 / 5</b></span><br>
+                    <span class="star-rating">★★★★★</span><br>
+                    <small class="muted-label">Overall Hardware Index</small>
+                </td>
+                <td class="score-cell">
+                    <span class="score-number"><b>10 / 10</b></span><br>
+                    <b class="ifixit-badge">iFixit Score</b><br>
+                    <small class="muted-label">Perfect Repairability</small>
+                </td>
+                <td class="score-cell">
+                    <span class="score-number"><b>0 dB</b></span><br>
+                    <b class="score-title">Idle Acoustics</b><br>
+                    <small class="muted-label">Zero Fan RPM Under 70°C</small>
+                </td>
+                <td class="score-cell">
+                    <span class="score-number"><b>0%</b></span><br>
+                    <b class="score-title">Bloatware Load</b><br>
+                    <small class="muted-label">Stock Clean OS Image</small>
+                </td>
+            </tr>
+        </table>
+        <hr>
+        <!-- Press Reviews Section -->
+        <h2 class="section-heading">What the Tech Press Is Saying</h2>
+        <p class="overview-text">
+            Excerpts from comprehensive testing across leading hardware publications.
+        </p>
+        <!-- 3-Column Press Grid -->
+        <table class="features-table">
+            <tr>
+                <!-- Press 1: LPCAMM Architecture -->
+                <td class="feature-card left-cell">
+                    <span class="star-rating">★★★★★</span>
+                    <h3>"The LPCAMM2 Architecture Apple Feared."</h3>
+                    <p>
+                        "By fitting <b>dual 128-bit LPCAMM2 modules</b> directly into their memory bus, Slatebook Pro 14 and 16 achieve <em>307.2 GB/s of bandwidth</em> without soldering chips to the motherboard, maintaining the flexibility to upgrade memory as needed. It delivers <strong>workstation memory speeds while letting the owner upgrade at will</strong>."
+                    </p>
+                    <hr>
+                    <b class="score-title">Hardware Deep Dive Review</b><br>
+                    <small class="muted-label">Silicon Architecture Analysis</small>
+                </td>
+                <!-- Press 2: Gamers Nexus / Linus style -->
+                <td class="feature-card left-cell">
+                    <span class="star-rating">★★★★★</span>
+                    <h3>"Thermal Headroom That Outlasts the Competition."</h3>
+                    <p>
+                        "The combination of <strong>Liquid Metal TIM and dual vapour chambers</strong> on the Pro 16 <em>eliminates thermal throttling entirely</em>. We held the 48-Core GPU at an 80W continuous load for 90 minutes <b>without clock degradation or aggressive high-frequency fan whine</b>."
+                    </p>
+                    <hr>
+                    <b class="score-title">Lab Thermals Bench</b><br>
+                    <small class="muted-label">Acoustic & Pressure Chamber Testing</small>
+                </td>
+                <!-- Press 3: Ars Technica style -->
+                <td class="feature-card left-cell">
+                    <span class="star-rating">★★★★★</span>
+                    <h3>"Zero Gimmicks. An Absolute Triumph."</h3>
+                    <p>
+                        "In an era where consumer laptops <b>arrive loaded with trial anti-virus popups and forced diagnostic telemetry</b> (especially laptops running stock Windows), opening a SlateBook to find a <em>debloated OS build</em> and a modular Samsung Gen 5 drive feels like <strong>stepping into a better hardware universe.</strong>"
+                    </p>
+                    <hr>
+                    <b class="score-title">Operating Systems Quarterly</b><br>
+                    <small class="muted-label">Editor's Choice Award</small>
+                </td>
+            </tr>
+        </table>
+        <hr>
+        <!-- Real-World Customer & Developer Experiences -->
+        <h2 class="section-heading">Developer & Creator Field Reports</h2>
+        <p class="overview-text">
+            How Slate hardware performs in production environments every day.
+        </p>
+        <table class="reports-table">
+            <!-- Review 1: Machine Learning Engineer -->
+            <tr class="report-row">
+                <td class="report-author-cell">
+                    <b class="score-title">Marcus Vance</b><br>
+                    <span class="muted-label">AI Research Engineer</span><br><br>
+                    <small class="verified-pill">Verified SlateBook Pro 16</small>
+                </td>
+                <td class="report-quote-cell">
+                    <span class="star-rating">★★★★★</span><br>
+                    "Running quantized models like NVIDIA Nemotron Bolt 3.5 74B-A9B locally on the Pro 16 is effortless. The 680.0 GB/s memory bandwidth means tokens stream out at 90 tokens per second without choking. The fact that I can swap in a 64GB LPCAMM2 (or larger) module myself instead of paying an OEM five thousand dollars for soldered memory that I can never upgrade is why I switched."
+                </td>
+            </tr>
+            <!-- Review 2: Creative Director / 3D Animator -->
+            <tr class="report-row">
+                <td class="report-author-cell">
+                    <b class="score-title">Elena Rostova</b><br>
+                    <span class="muted-label">3D Animator & Colorist</span><br><br>
+                    <small class="verified-pill">Verified SlateBook Pro 14</small>
+                </td>
+                <td class="report-quote-cell">
+                    <span class="star-rating">★★★★★</span><br>
+                    "The 3K Tandem OLED screen with nanotexture coating on the Pro 14 is the best laptop panel I have ever graded footage on. I experience zero glare under studio LED lights, and the 14,000 MB/s Samsung 9100 Pro drive as well as the 24-core GPU scrubs multi-stream 8K RAW video with zero proxy caching required. Plus, the magnetic Slate Connect cable has already saved my laptop from two studio trip accidents, which could've cost me thousands in repairs."
+                </td>
+            </tr>
+            <!-- Review 3: Software Engineering Student -->
+            <tr class="report-row">
+                <td class="report-author-cell">
+                    <b class="score-title">Julian Chen</b><br>
+                    <span class="muted-label">CompSci Student</span><br><br>
+                    <small class="verified-pill">Verified SlateBook 13</small>
+                </td>
+                <td class="report-quote-cell">
+                    <span class="star-rating">★★★★★</span><br>
+                    "At $1,199 CAD, the SlateBook 13 gives me 16GB of fast modular memory and a 120Hz display for less than what other companies charge for 8GB base models with 60Hz screens. The passive vapour chamber cooling means my laptop runs completely silent in lecture halls, stays cool, and the battery easily clears a full day of classes and library study sessions with life still left in it for home use."
+                </td>
+            </tr>
+        </table>
+        <!-- Footer -->
+        <hr>
+        <p class="footer-text">
+            <small>&copy; 2026 Slate Computing Inc. All rights reserved.</small>
+        </p>
+        <!-- React Bits JavaScript Files -->
+        <script src="gradient-ascii.js"></script>
+        <script src="glass-surface.js"></script>
+        <script src="metallic-paint.js"></script>
+        <script src="pill-nav.js"></script>
+        <script src="specular-button.js"></script>
+    </body>
+</html>
