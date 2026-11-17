@@ -189,7 +189,7 @@
 
     // 2. Navigation Links & Props from your Usage Example
     const items = [
-        { label: 'Home', href: 'Homepage.html', icon: '<i class="fa fa-home"></i>' },
+        { label: 'Home', href: 'index.html', icon: '<i class="fa fa-home"></i>' },
         { label: 'About Us', href: 'About Us.html' },
         { label: 'Product', href: 'Product.html' },
         { label: 'Reviews', href: 'Reviews.html' },
@@ -198,7 +198,7 @@
 
     const settings = {
         logo: 'Slate Logo.jpg',
-        logoHref: 'Homepage.html',
+        logoHref: 'index.html',
         logoAlt: 'Slate Computing',
         itemStyle: 'plain',
         hoverEffect: 'glide',
@@ -209,7 +209,7 @@
     };
 
     // Detect which page is currently open
-    const currentPath = decodeURIComponent(window.location.pathname.split('/').pop() || 'Homepage.html');
+    const currentPath = decodeURIComponent(window.location.pathname.split('/').pop() || 'index.html');
     let activeIndex = items.findIndex(item => item.href.toLowerCase() === currentPath.toLowerCase());
     if (activeIndex < 0) activeIndex = 0;
 
