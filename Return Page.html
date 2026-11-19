@@ -6,7 +6,7 @@
         <!-- Font Awesome Icons -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
         <!-- External CSS Stylesheet -->
-        <link rel="stylesheet" type="text/css" href="website_style.css">
+        <link rel="stylesheet" type="text/css" href="return_page.css">
     </head>
     <body>
         <!-- Persistent GlassSurface Top Navigation Bar -->
@@ -85,8 +85,10 @@
                                         <select name="laptop_model" required class="form-select">
                                             <option value="">-- Please select your purchased hardware --</option>
                                             <option value="slatebook-13">SlateBook 13 (Slate S1 / 16GB LPCAMM2 / 512GB)</option>
-                                            <option value="slatebook-pro-14">SlateBook Pro 14 (Slate S1 Pro / 32GB LPCAMM2 / 1TB)</option>
-                                            <option value="slatebook-pro-16">SlateBook Pro 16 (Slate S1 Max / 64GB LPCAMM2 / 2TB)</option>
+                                            <option value="slatebook-pro-14-base">SlateBook Pro 14 (Slate S1 Pro / 32GB LPCAMM2 / 1TB)</option>
+                                            <option value="slatebook-pro-16-base">SlateBook Pro 16 (Slate S1 Pro / 32GB LPCAMM2 / 1TB)</option>
+                                            <option value="slatebook-pro-14-upgraded">SlateBook Pro 14 (Slate S1 Max / 64GB LPCAMM2 / 2TB)</option>
+                                            <option value="slatebook-pro-16-upgraded">SlateBook Pro 16 (Slate S1 Max / 64GB LPCAMM2 / 2TB)</option>
                                         </select>
                                     </td>
                                 </tr>
@@ -100,8 +102,8 @@
                                         <label for="reason2">Exchanging for higher tier (e.g., Upgrading Pro 14 to Pro 16)</label><br>
                                         <input type="radio" id="reason3" name="return_reason" value="defect">
                                         <label for="reason3">Hardware fault (Vapour chamber acoustic / Display panel issue)</label><br>
-                                        <input type="radio" id="reason4" name="return_reason" value="software">
-                                        <label for="reason4">OS/Kernel incompatibility with specialized workflow</label>
+                                        <input type="radio" id="reason4" name="return_reason" value="downgrade">
+                                        <label for="reason4">Being economic (e.g., Downgrading Pro 16 to Pro 14)</label>
                                     </td>
                                 </tr>
                                 <!-- Detailed Feedback (Textarea) -->

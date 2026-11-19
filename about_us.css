@@ -1,0 +1,192 @@
+/*
+Page Background and Default Font
+ */
+body {
+    background-color: #f4f6f9;
+    font-family: "Inter", Arial, sans-serif;
+    color: #000000;
+    margin: 0px;
+}
+
+/*
+Headings Font and Color
+ */
+h1, h2, h3 {
+    font-family: "Plus Jakarta Sans", Verdana, sans-serif;
+    color: #0f3460;
+    text-align: center;
+}
+
+.page-title {
+    color: #ffffff;
+    background-color: rgba(15, 52, 96, 0.75);
+    padding: 20px 0px;
+    font-size: 38px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    color: #f4f6f9;
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 25px;
+}
+
+.section-heading {
+    color: #ffffff;
+    background-color: rgba(15, 52, 96, 0.75);
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+/*
+Horizontal Divider Line
+ */
+hr {
+    width: 85%;
+    margin: 25px auto;
+    border: 1px solid #cbd5e1;
+}
+
+/*
+Persistent GlassSurface Top Bar
+ */
+.navbar {
+    width: 90%;
+    height: 110px;
+    margin: 10px auto;
+    border-radius: 50px;
+    position: sticky;
+    top: 10px;
+    z-index: 100;
+}
+
+/*
+Metallic Paint Logo on Left of Navbar
+ */
+.logo-link {
+    float: left;
+    margin-left: 3%;
+}
+
+.metallic-logo {
+    position: relative;
+    width: 160px;
+    height: 96px;
+    overflow: hidden;
+    transform: translate(0px, 6px);
+}
+
+/*
+PillNav Container on Right of Navbar
+ */
+.pill-nav-wrapper {
+    float: right;
+    margin-right: 5%;
+    margin-top: 24px;
+    transform: translate(0px, 6px);
+}
+
+/*
+Overview Paragraph with Dark Glass Backing for Readability
+ */
+.overview-text {
+    width: 85%;
+    margin: 20px auto;
+    padding: 20px 28px;
+    background-color: rgba(11, 15, 25, 0.75);
+    border: 1px solid #1e3a8a;
+    border-radius: 14px;
+    text-align: center;
+    font-size: 18px;
+    color: #f4f6f9;
+}
+
+/*
+About Us Page Layout Table & Elements
+ */
+.about-table {
+    width: 85%;
+    margin: 20px auto;
+    background-color: rgba(11, 15, 25, 0.80);
+    border: 1px solid #1e3a8a;
+    border-radius: 14px;
+    padding: 20px;
+}
+
+.about-text-cell {
+    width: 55%;
+    padding: 15px;
+    vertical-align: top;
+    color: #e2e8f0;
+    font-size: 18px;
+}
+
+.about-text-cell h2 {
+    color: #38bdf8;
+    text-align: left;
+}
+
+.about-img-cell {
+    width: 45%;
+    padding: 15px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.teardown-img {
+    width: 100%;
+    border-radius: 20px;
+    border: 1px solid #1e3a8a;
+    filter: brightness(80%);
+}
+
+.teardown-img:hover {
+    filter: brightness(100%);
+    transform: scale(1.05, 1.05);
+}
+
+.img-caption {
+    color: #94a3b8;
+    font-size: 14px;
+}
+
+.inline-link:link,
+.inline-link:visited {
+    color: #38bdf8;
+    text-decoration: underline;
+}
+
+.inline-link:hover {
+    color: #ad6dff;
+}
+
+.founder-quote {
+    background-color: rgba(15, 52, 96, 0.55);
+    border-left: 4px solid #38bdf8;
+    padding: 15px 20px;
+    border-radius: 8px;
+    color: #f4f6f9;
+    font-size: 17px;
+}
+
+.map-box {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.map-frame {
+    border: 2px solid #1e3a8a;
+    border-radius: 14px;
+}
+
+/*
+Footer Text
+ */
+.footer-text {
+    text-align: center;
+    color: #1e293b;
+    margin-bottom: 30px;
+}

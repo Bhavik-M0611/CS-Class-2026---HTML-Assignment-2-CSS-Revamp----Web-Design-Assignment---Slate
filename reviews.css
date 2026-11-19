@@ -1,0 +1,230 @@
+/*
+Page Background and Default Font
+ */
+body {
+    background-color: #f4f6f9;
+    font-family: "Inter", Arial, sans-serif;
+    color: #000000;
+    margin: 0px;
+}
+
+/*
+Headings Font and Color
+ */
+h1, h2, h3 {
+    font-family: "Plus Jakarta Sans", Verdana, sans-serif;
+    color: #0f3460;
+    text-align: center;
+}
+
+.page-title {
+    color: #ffffff;
+    background-color: rgba(15, 52, 96, 0.75);
+    padding: 20px 0px;
+    font-size: 38px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    color: #f4f6f9;
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 25px;
+}
+
+.section-heading {
+    color: #ffffff;
+    background-color: rgba(15, 52, 96, 0.75);
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+/*
+Horizontal Divider Line
+ */
+hr {
+    width: 85%;
+    margin: 25px auto;
+    border: 1px solid #cbd5e1;
+}
+
+/*
+Persistent GlassSurface Top Bar
+ */
+.navbar {
+    width: 90%;
+    height: 110px;
+    margin: 10px auto;
+    border-radius: 50px;
+    position: sticky;
+    top: 10px;
+    z-index: 100;
+}
+
+/*
+Metallic Paint Logo on Left of Navbar
+ */
+.logo-link {
+    float: left;
+    margin-left: 3%;
+}
+
+.metallic-logo {
+    position: relative;
+    width: 160px;
+    height: 96px;
+    overflow: hidden;
+    transform: translate(0px, 6px);
+}
+
+/*
+PillNav Container on Right of Navbar
+ */
+.pill-nav-wrapper {
+    float: right;
+    margin-right: 5%;
+    margin-top: 24px;
+    transform: translate(0px, 6px);
+}
+
+/*
+Overview Paragraph with Dark Glass Backing for Readability
+ */
+.overview-text {
+    width: 85%;
+    margin: 20px auto;
+    padding: 20px 28px;
+    background-color: rgba(11, 15, 25, 0.75);
+    border: 1px solid #1e3a8a;
+    border-radius: 14px;
+    text-align: center;
+    font-size: 18px;
+    color: #f4f6f9;
+}
+
+/*
+Press Grid Table
+ */
+.features-table {
+    width: 85%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+.feature-card {
+    width: 30%;
+    background-color: rgba(11, 15, 25, 0.78);
+    border: 8px solid transparent;
+    padding: 20px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.feature-card h3 {
+    color: #38bdf8;
+}
+
+.feature-card p {
+    font-size: 16px;
+    color: #e2e8f0;
+}
+
+.feature-card:hover {
+    background-color: rgba(15, 52, 96, 0.88);
+    transform: translate(0px, -4px);
+}
+
+.left-cell {
+    text-align: left;
+}
+
+/*
+Reviews Page Score Banner & Field Reports
+ */
+.score-banner-table {
+    width: 85%;
+    margin: 20px auto;
+    background-color: rgba(11, 15, 25, 0.85);
+    border: 1px solid #1e3a8a;
+    border-radius: 14px;
+    padding: 15px;
+}
+
+.score-cell {
+    width: 25%;
+    text-align: center;
+    padding: 15px;
+}
+
+.score-number {
+    font-size: 40px;
+    color: #ffffff;
+}
+
+.star-rating {
+    color: #f59e0b;
+    font-size: 20px;
+}
+
+.ifixit-badge {
+    color: #22c55e;
+    font-size: 18px;
+}
+
+.score-title {
+    color: #38bdf8;
+    font-size: 18px;
+}
+
+.muted-label {
+    color: #94a3b8;
+    font-size: 16px;
+}
+
+.reports-table {
+    width: 85%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+.report-row {
+    background-color: rgba(11, 15, 25, 0.80);
+    border: 1px solid #1e3a8a;
+}
+
+.report-row:hover {
+    background-color: rgba(15, 52, 96, 0.88);
+}
+
+.report-author-cell {
+    width: 25%;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #1e3a8a;
+}
+
+.report-quote-cell {
+    width: 75%;
+    padding: 20px;
+    font-size: 18px;
+    color: #e2e8f0;
+    border: 1px solid #1e3a8a;
+}
+
+.verified-pill {
+    background-color: #0f3460;
+    color: #f4f6f9;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+/*
+Footer Text
+ */
+.footer-text {
+    text-align: center;
+    color: #1e293b;
+    margin-bottom: 30px;
+}

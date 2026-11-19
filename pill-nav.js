@@ -192,6 +192,7 @@
         { label: 'Home', href: 'index.html', icon: '<i class="fa fa-home"></i>' },
         { label: 'About Us', href: 'About Us.html' },
         { label: 'Product', href: 'Product.html' },
+        { label: 'Configure', href: 'Configure.html' },
         { label: 'Reviews', href: 'Reviews.html' },
         { label: 'Return Page', href: 'Return Page.html' }
     ];

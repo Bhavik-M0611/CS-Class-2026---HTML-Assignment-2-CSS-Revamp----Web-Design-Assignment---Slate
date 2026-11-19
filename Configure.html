@@ -1,0 +1,251 @@
+<html>
+    <head>
+        <!-- Page Title -->
+        <title>Configure Your SlateBook</title>
+        <!-- Google Fonts: Geist, Inter, and Plus Jakarta Sans -->
+        <link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+        <!-- Font Awesome Icons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+        <!-- External CSS Stylesheet -->
+        <link rel="stylesheet" type="text/css" href="configure.css">
+    </head>
+    <body>
+        <!-- Persistent GlassSurface Top Navigation Bar -->
+        <div id="slate-glass-navbar" class="navbar">
+            <!-- Left Side: Metallic Paint Logo -->
+            <a href="index.html" class="logo-link">
+                <div id="slate-metallic-logo" class="metallic-logo"></div>
+            </a>
+            <!-- Right Side: React Bits PillNav Component -->
+            <div id="slate-pill-nav" class="pill-nav-wrapper"></div>
+        </div>
+        <!-- Page Heading -->
+        <h1 class="page-title">Configure Your SlateBook</h1>
+        <h3 class="subtitle">
+            Custom Modular Motherboard | User-Upgradeable LPCAMM2 Memory | Zero Soldered Components
+        </h3>
+        <!-- Main Configurator Wrapper Table -->
+        <table class="return-wrapper-table">
+            <tr>
+                <td>
+                    <h2>Build to Order</h2>
+                    <p>
+                        Every SlateBook is assembled to your exact specifications in our hardware lab. Because we use standard M.2 2280 storage slots and socketed <b>LPCAMM2 memory modules</b> instead of glue and solder, you can order a base configuration today and upgrade individual components yourself whenever your workflow demands more power.
+                    </p>
+                    <br>
+                    <!-- Ordered List: Build Steps (Lesson 8) -->
+                    <h3>How Custom Assembly Works</h3>
+                    <ol class="return-steps-list">
+                        <li><b>Select Your Chassis & Silicon:</b> Choose between the passive-cooled SlateBook 13, the Portable Pro 14, or the Performance-Oriented Pro 16 workstation.</li>
+                        <li><b>Configure Modular Memory & Storage:</b> Pick your factory-installed (or bring your own) LPCAMM2 RAM kit and PCIe NVMe SSD capacity.</li>
+                        <li><b>Choose Your Clean OS Image:</b> Select a zero-bloatware OS installation or order a blank drive to install your own OS for maximum control.</li>
+                        <li><b>30-Minute Thermal Stress Test:</b> Every custom machine undergoes a continuous 30-minute stress test before shipping to ensure reliability.</li>
+                    </ol>
+                    <br>
+                    <hr>
+                    <br>
+                    <!-- Custom Laptop Builder Form (Lesson 10 Forms) -->
+                    <h2>Custom Hardware Configurator</h2>
+                    <p class="center-cell">
+                        Fields marked with an asterisk (*) are required to reserve your custom chassis allocation.
+                    </p>
+                    <fieldset class="rma-fieldset">
+                        <legend class="rma-legend"><b>SlateBook Hardware Builder</b></legend>
+                        <form action="404 Not Found Error.html" method="get">
+                            <table class="rma-form-table">
+                                <!-- Base Chassis Selection -->
+                                <tr>
+                                    <td class="form-label-cell"><b>Base Chassis Model <span class="required-star">*</span>:</b></td>
+                                    <td class="form-input-cell">
+                                        <select name="chassis_model" required class="form-select">
+                                            <option value="">-- Select your SlateBook chassis --</option>
+                                            <option value="SlateBook-13">SlateBook 13 (13.8" 2.5K IPS Matte / 1.23 kg) - Base $1,199 CAD</option>
+                                            <option value="SlateBook-pro-14">SlateBook Pro 14 (14.2" 3K Tandem OLED / 1.38 kg) - Base $2,799 CAD</option>
+                                            <option value="SlateBook-pro-16">SlateBook Pro 16 (16.2" 4K Tandem OLED / 1.84 kg) - Base $2,999 CAD</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                                <!-- Silicon / SoC Selection -->
+                                <tr>
+                                    <td class="form-label-cell"><b>Silicon / SoC Tier <span class="required-star">*</span>:</b></td>
+                                    <td class="form-input-cell">
+                                        <select name="silicon_tier" required class="form-select">
+                                            <option value="s1">Slate S1 (4P + 4E, 12-Core GPU, 20W TDP)</option>
+                                            <option value="s1-pro">Slate S1 Pro (8P + 8E, 24-Core GPU, 50W TDP)</option>
+                                            <option value="s1-max">Slate S1 Max (12P + 8E, 48-Core GPU, 80W TDP)</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                                <!-- Modular LPCAMM2 Memory -->
+                                <tr>
+                                    <td class="form-label-cell"><b>Modular LPCAMM2 RAM <span class="required-star">*</span>:</b></td>
+                                    <td class="form-input-cell">
+                                        <select name="lpcamm_memory" required class="form-select">
+                                            <option value="16gb">16GB LPCAMM2 (1x 16 GB, 170.0 GB/s) - Included with S1</option>
+                                            <option value="32gb">32GB LPCAMM2 (1x 32GB, 170.0 GB/s) - +$199 CAD</option>
+                                            <option value="32gb">32GB Dual LPCAMM2 (2x 16GB, 340.0 GB/s) - Included with S1 Pro</option>
+                                            <option value="64gb">64GB Dual LPCAMM2 (2x 32GB, 340.0 GB/s) - +$499 CAD</option>
+                                            <option value="64gb">64GB Quad LPCAMM2 (4x 16GB, 680.0 GB/s) - Included with S1 Max</option>
+                                            <option value="128gb">128GB Quad LPCAMM2 (4x 32 GB, 680.0 GB/s) - +$1,099 CAD</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                                <!-- NVMe Storage Subsystem -->
+                                <tr>
+                                    <td class="form-label-cell"><b>Primary M.2 NVMe SSD <span class="required-star">*</span>:</b></td>
+                                    <td class="form-input-cell">
+                                        <select name="nvme_storage" required class="form-select">
+                                            <option value="512gb-gen4">512GB Samsung 980 Pro PCIe Gen 4 (7,000 MB/s) - Included with S1</option>
+                                            <option value="1tb-gen4">1TB Samsung 980 Pro PCIe Gen 4 (7,000 MB/s) - +$199 CAD</option>
+                                            <option value="1tb-gen5">1TB Samsung 9100 Pro PCIe Gen 5 (14,000 MB/s) - Included with S1 Pro</option>
+                                            <option value="2tb-gen5">2TB Samsung 9100 Pro PCIe Gen 5 (14,000 MB/s) - +$599 CAD <b>OR</b> Included with S1 Max</option>
+                                            <option value="4tb-gen5">4TB Samsung 9100 Pro PCIe Gen 5 (14,000 MB/s) - +$799 CAD</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                                <!-- Operating System Image (Radio Buttons) -->
+                                <tr>
+                                    <td class="form-label-cell"><b>Factory OS Image <span class="required-star">*</span>:</b></td>
+                                    <td class="form-input-cell">
+                                        <input type="radio" id="os1" name="os_image" value="win11-clean" checked>
+                                        <label for="os1">Windows 11 Pro - Slate Edition (0% Bloatware, All Telemetry Disabled, Optimized for Performance)</label><br>
+                                        <input type="radio" id="os2" name="os_image" value="linux-oem">
+                                        <label for="os2">Slate OS (Pre-configured Mainline Kernel + Best Compatibility with Hardware)</label><br>
+                                        <input type="radio" id="os3" name="os_image" value="blank-nvme">
+                                        <label for="os3">No Operating System (Unformatted NVMe Drive for Custom Install)</label>
+                                    </td>
+                                </tr>
+                                <!-- Modular Add-Ons (Checkboxes) -->
+                                <tr>
+                                    <td class="form-label-cell"><b>Modular Accessories:</b></td>
+                                    <td class="form-input-cell">
+                                        <input type="checkbox" id="acc1" name="extra_cable" value="yes">
+                                        <label for="acc1">Extra Braided Slate Connect 140W Magnetic USB-C Cable (+$49 CAD)</label><br>
+                                        <input type="checkbox" id="acc2" name="gan_brick" value="yes">
+                                        <label for="acc2">Additional 140W Compact GaN USB-C Power Adapter (+$79 CAD)</label><br>
+                                        <input type="checkbox" id="acc3" name="tool_kit" value="yes" checked>
+                                        <label for="acc3">Precision Slate Certified Electronics Kit (Included with all models)</label>
+                                    </td>
+                                </tr>
+                                <!-- Customer Reservation Details -->
+                                <tr>
+                                    <td class="form-label-cell"><b>Full Name <span class="required-star">*</span>:</b></td>
+                                    <td class="form-input-cell">
+                                        <input type="text" name="buyer_name" required class="form-input">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="form-label-cell"><b>Shipping Email <span class="required-star">*</span>:</b></td>
+                                    <td class="form-input-cell">
+                                        <input type="text" name="buyer_email" required class="form-input">
+                                    </td>
+                                </tr>
+                                <!-- Special Build Instructions -->
+                                <tr>
+                                    <td class="form-label-cell"><b>Custom Instructions for the Lab Build Team:</b></td>
+                                    <td class="form-input-cell">
+                                        <textarea name="build_notes" rows="3" cols="45" class="form-textarea"></textarea>
+                                    </td>
+                                </tr>
+                                <!-- Submit & Reset Buttons -->
+                                <tr>
+                                    <td></td>
+                                    <td class="form-input-cell">
+                                        <button type="submit" class="cta-btn"><b>Place Custom Order --></b></button>
+                                        <input type="reset" value="Reset Build" class="reset-btn">
+                                    </td>
+                                </tr>
+                            </table>
+                        </form>
+                    </fieldset>
+                </td>
+            </tr>
+        </table>
+        <hr>
+        <!-- Standalone Modular Upgrade Parts Table (Lesson 9 Tables) -->
+        <h2 class="section-heading">Standalone Modular Upgrade Parts</h2>
+        <p class="overview-text">
+            Already own a SlateBook? Order genuine, zero-DRM replacement modules and upgrade your machine at home with a standard Torx screwdriver.
+        </p>
+        <table class="data-table">
+            <tr>
+                <th class="left-cell">Modular Component</th>
+                <th class="center-cell">Compatible Models</th>
+                <th class="center-cell">Key Specifications</th>
+                <th class="center-cell">Price (CAD)</th>
+            </tr>
+            <tr>
+                <td><b>32GB LPCAMM2 Memory Kit</b></td>
+                <td class="center-cell">SlateBook 13</td>
+                <td class="center-cell">LPDDR5X-10,667, Compression-Mounted Socket</td>
+                <td class="center-cell"><b>$599 CAD</b></td>
+            </tr>
+            <tr>
+                <td><b>64GB Dual LPCAMM2 Memory Kit</b></td>
+                <td class="center-cell">SlateBook Pro 14, Pro 16</td>
+                <td class="center-cell">LPDDR5X-10,667, Compression-Mounted Socket</td>
+                <td class="center-cell"><b>$1,249 CAD</b></td>
+            </tr>
+            <tr>
+                <td><b>128GB Quad LPCAMM2 Memory Kit</b></td>
+                <td class="center-cell">SlateBook Pro 14, Pro 16</td>
+                <td class="center-cell">Quad-Channel 512-bit High-Bandwidth Module</td>
+                <td class="center-cell"><b>$2,499 CAD</b></td>
+            </tr>
+            <tr>
+                <td><b>1TB Samsung 980 Pro NVMe</b></td>
+                <td class="center-cell">SlateBook 13</td>
+                <td class="center-cell">PCIe Gen 4 x4, Up to 7,000 MB/s Sequential Read</td>
+                <td class="center-cell"><b>$299 CAD</b></td>
+            </tr>
+            <tr>
+                <td><b>2TB Samsung 9100 Pro NVMe</b></td>
+                <td class="center-cell">SlateBook Pro 14, Pro 16</td>
+                <td class="center-cell">PCIe Gen 5 x4, Up to 14,000 MB/s Sequential Read</td>
+                <td class="center-cell"><b>$799 CAD</b></td>
+            </tr>
+            <tr>
+                <td><b>4TB Samsung 9100 Pro NVMe</b></td>
+                <td class="center-cell">SlateBook Pro 14, Pro 16</td>
+                <td class="center-cell">PCIe Gen 5 x4, Up to 14,000 MB/s Sequential Read</td>
+                <td class="center-cell"><b>$1,599 CAD</b></td>
+            </tr>
+            <tr>
+                <td><b>54Wh Replacement Battery Cell</b></td>
+                <td class="center-cell">SlateBook 13</td>
+                <td class="center-cell"> captive Torx screws (Zero adhesive strips)</td>
+                <td class="center-cell"><b>$69 CAD</b></td>
+            </tr>
+            <tr>
+                <td><b>72Wh Replacement Battery Cell</b></td>
+                <td class="center-cell">SlateBook Pro 14</td>
+                <td class="center-cell"> captive Torx screws (Zero adhesive strips)</td>
+                <td class="center-cell"><b>$99 CAD</b></td>
+            </tr>
+            <tr>
+                <td><b>100Wh Replacement Battery Cell</b></td>
+                <td class="center-cell">SlateBook Pro 16</td>
+                <td class="center-cell"> captive Torx screws (Zero adhesive strips)</td>
+                <td class="center-cell"><b>$129 CAD</b></td>
+            </tr>
+            <tr>
+                <td><b>Slate S1 Max Motherboard Upgrade (64 GB Quad LPCAMM2 Memory Kit, 2 TB Samsung 9100 Pro NVMe Included)</b></td>
+                <td class="center-cell">SlateBook Pro 14, Pro 16</td>
+                <td class="center-cell">12P + 4E CPU, 48-Core GPU, Pre-applied Liquid Metal TIM</td>
+                <td class="center-cell"><b>$2,799 CAD</b></td>
+            </tr>
+        </table>
+        <!-- Footer -->
+        <hr>
+        <p class="footer-text">
+            <small>&copy; 2026 Slate Computing Inc. All rights reserved.</small>
+        </p>
+        <!-- React Bits JavaScript Files -->
+        <script src="gradient-ascii.js"></script>
+        <script src="glass-surface.js"></script>
+        <script src="metallic-paint.js"></script>
+        <script src="pill-nav.js"></script>
+        <script src="specular-button.js"></script>
+        <script src="dodge-field.js"></script>
+    </body>
+</html>
