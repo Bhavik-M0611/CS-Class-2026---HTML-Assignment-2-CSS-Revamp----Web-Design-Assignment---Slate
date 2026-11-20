@@ -1,4 +1,14 @@
 /*
+Fallback Background Image behind Canvas
+ */
+html {
+    background-color: #0b0f19;
+    background-image: url("CNC Machined Aluminum.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/*
 Page Background and Default Font
  */
 body {
@@ -183,10 +193,86 @@ About Us Page Layout Table & Elements
 }
 
 /*
-Footer Text
+Footer Text (ID Selector & Opacity)
  */
-.footer-text {
+#slate-footer {
     text-align: center;
     color: #1e293b;
     margin-bottom: 30px;
+    opacity: 0.85;
+}
+
+#slate-footer:hover {
+    opacity: 1.0;
+}
+
+/*
+Responsive Mobile View (Media Query)
+ */
+@media screen and (max-width: 768px) {
+    .navbar {
+        width: 96%;
+        height: auto;
+        border-radius: 24px;
+        padding-bottom: 10px;
+        overflow: auto;
+        position: relative;
+    }
+
+    .logo-link {
+        float: none;
+        display: block;
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    .metallic-logo {
+        margin: 0px auto;
+    }
+
+    .pill-nav-wrapper {
+        float: none;
+        margin: 10px auto;
+        text-align: center;
+    }
+
+    .page-title {
+        font-size: 26px;
+        padding: 15px 10px;
+    }
+
+    .subtitle {
+        font-size: 16px;
+        padding: 0px 15px;
+    }
+
+    .section-heading {
+        font-size: 22px;
+        padding: 12px 10px;
+    }
+
+    .overview-text {
+        width: 92%;
+        font-size: 16px;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+
+    .about-table {
+        width: 94%;
+        padding: 10px;
+    }
+
+    .about-text-cell,
+    .about-img-cell {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+        font-size: 16px;
+    }
+
+    .map-frame {
+        width: 94%;
+        height: 320px;
+    }
 }

@@ -1,4 +1,14 @@
 /*
+Fallback Background Image behind Canvas
+ */
+html {
+    background-color: #0b0f19;
+    background-image: url("CNC Machined Aluminum.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/*
 Page Background and Default Font
  */
 body {
@@ -203,10 +213,89 @@ input[type=text].form-input,
 }
 
 /*
-Footer Text
+Footer Text (ID Selector & Opacity)
  */
-.footer-text {
+#slate-footer {
     text-align: center;
     color: #1e293b;
     margin-bottom: 30px;
+    opacity: 0.85;
+}
+
+#slate-footer:hover {
+    opacity: 1.0;
+}
+
+/*
+Responsive Mobile View (Media Query)
+ */
+@media screen and (max-width: 768px) {
+    .navbar {
+        width: 96%;
+        height: auto;
+        border-radius: 24px;
+        padding-bottom: 10px;
+        overflow: auto;
+        position: relative;
+    }
+
+    .logo-link {
+        float: none;
+        display: block;
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    .metallic-logo {
+        margin: 0px auto;
+    }
+
+    .pill-nav-wrapper {
+        float: none;
+        margin: 10px auto;
+        text-align: center;
+    }
+
+    .page-title {
+        font-size: 26px;
+        padding: 15px 10px;
+    }
+
+    .subtitle {
+        font-size: 16px;
+        padding: 0px 15px;
+    }
+
+    .return-wrapper-table {
+        width: 94%;
+        padding: 14px;
+        font-size: 16px;
+    }
+
+    .return-steps-list {
+        padding: 15px 20px 15px 30px;
+    }
+
+    .form-label-cell,
+    .form-input-cell {
+        display: block;
+        width: 100%;
+        text-align: left;
+        box-sizing: border-box;
+        padding: 6px 4px;
+    }
+
+    input[type=text].form-input,
+    .form-select,
+    .form-textarea {
+        width: 100%;
+    }
+
+    .cta-btn,
+    .reset-btn {
+        font-size: 15px;
+        padding: 12px 20px;
+        margin-top: 8px;
+        margin-left: 0px;
+    }
 }

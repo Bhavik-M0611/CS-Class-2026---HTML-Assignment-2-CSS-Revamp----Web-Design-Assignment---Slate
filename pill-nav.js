@@ -99,6 +99,8 @@
             padding: var(--pn-pad);
             border-radius: 999px;
             box-sizing: border-box;
+            overflow-x: auto;
+            max-width: 100%;
         }
         .pill-nav__track {
             position: relative;
