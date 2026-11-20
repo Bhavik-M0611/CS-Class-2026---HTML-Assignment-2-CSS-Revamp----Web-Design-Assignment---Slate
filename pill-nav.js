@@ -194,7 +194,8 @@
         { label: 'Product', href: 'Product.html' },
         { label: 'Configure', href: 'Configure.html' },
         { label: 'Reviews', href: 'Reviews.html' },
-        { label: 'Return Page', href: 'Return Page.html' }
+        { label: 'Return Page', href: 'Return Page.html' },
+        { label: 'Slate OS' , href: 'Slate OS.html' },
     ];
 
     const settings = {
